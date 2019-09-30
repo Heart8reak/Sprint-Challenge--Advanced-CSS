@@ -345,3 +345,32 @@ footer {
     margin: 5% auto;
   }
 }
+.form-text form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10% auto;
+  padding: 25px 25px;
+  border: 1px solid #454A59;
+  border-radius: 5px;
+}
+.form-text form h1 {
+  text-align: center;
+}
+.form-text form input {
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+.form-text form .form-btn {
+  padding: 5px 0;
+  width: 50%;
+  margin: 0 auto;
+  background: #F1F1F1;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .form-text form {
+    width: 80%;
+    margin: 20% auto;
+  }
+}
