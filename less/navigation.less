@@ -20,4 +20,21 @@ nav {
             color: @header-font-color;
         }
     }
-}
+
+    @media @phone {
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        margin: 0 auto;
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+
+            a {
+                margin: 0 1%;
+            }// A Tag
+        }// Nav Bar
+    }// Mobile Query
+}// Nav
