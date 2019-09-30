@@ -1,10 +1,7 @@
 // Navigation code here
 
 nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: @nav-bg;
+    .nav-bg();
 
     h1 {
         font-family: @nav-font;
@@ -15,10 +12,7 @@ nav {
     }
 
     .navbar {
-        display: flex;
-        justify-content: space-evenly;
-        width: 50%;
-        margin: 10px 0;
+        .navbar-display();
 
         a {
             text-decoration: none;
