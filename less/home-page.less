@@ -65,6 +65,23 @@
       }
 
       .btn {
+        .signup-btn(10px 10px, @ebony-clay, 24%, center, 5px);
+
+        .sign-btn-font();
+        transition: 1s;
+        a {
+          text-decoration: none;
+          color: @wild-sand;
+        }
+
+        &:hover {
+          background-color: lighten(@ebony-clay, 80%);
+          border: 1px solid @ebony-clay;
+          cursor: pointer;
+          a {
+            color: darken(@wild-sand, 20%);
+          }
+        }
       }
     }
 

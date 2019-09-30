@@ -1,3 +1,8 @@
+.sign-btn-font {
+  font-size: 1.5rem;
+  color: #F6F6F6;
+  text-decoration: none;
+}
 .nav-bg {
   display: flex;
   flex-direction: column;
@@ -251,6 +256,29 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  padding: 10px 10px;
+  background: #23293B;
+  width: 24%;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #F6F6F6;
+  text-decoration: none;
+  transition: 1s;
+}
+.home .walk .walk-text .btn a {
+  text-decoration: none;
+  color: #F6F6F6;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #fafafc;
+  border: 1px solid #23293B;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover a {
+  color: #c3c3c3;
 }
 .home .walk .walk-img {
   width: 46%;
