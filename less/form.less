@@ -1,0 +1,33 @@
+.form-text {
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 10% auto;
+        padding: 25px 25px;
+        border: 1px solid @river-bend;
+        border-radius: 5px;
+
+        h1 {
+            text-align: center;
+        }
+
+        input {
+            padding: 5px 10px;
+            margin: 10px 0;
+        }
+
+        .form-btn {
+            padding: 5px 0;
+            width: 50%;
+            margin: 0 auto;
+            background: @sea-shell;
+            border-radius: 5px;
+        }
+
+        @media @phone {
+            width: 80%;
+            margin: 20% auto;
+        }
+    }
+}

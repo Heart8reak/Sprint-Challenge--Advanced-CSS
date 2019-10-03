@@ -1,1 +1,40 @@
 // Navigation code here
+
+nav {
+    .nav-bg();
+
+    h1 {
+        font-family: @nav-font;
+        font-size: 4rem;
+        margin: 10px 0;
+        color: @header-font-color;
+        border: @nav-border;
+    }
+
+    .navbar {
+        .navbar-display();
+
+        a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: @header-font-color;
+        }
+    }
+
+    @media @phone {
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        margin: 0 auto;
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+
+            a {
+                margin: 0 1%;
+            }// A Tag
+        }// Nav Bar
+    }// Mobile Query
+}// Nav
